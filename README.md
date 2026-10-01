@@ -35,11 +35,11 @@ Catatan: ada data suhu bernilai 0 Kelvin yang kami anggap error sensor, dan kolo
    pip install pandas matplotlib jupyter
    ```
 2. Download dataset dari link di atas, lalu simpan file `Metro_Interstate_Traffic_Volume.csv` ke dalam folder `data/` (sejajar dengan file notebook).
-3. Buka anaconda prompt daan jalankan perintah:
+3. Buka anaconda prompt dan jalankan perintah:
    ```
    jupyter notebook 
    ```
-4. Buka file **Tugas_EDA_kelompok.ipynb** di folder tempat menyimpan file
+4. Buka file **Tugas_EDA_kelompok.ipynb** di folder tempat anda menyimpan file
 5. Buka dan jalankan semua cell dari atas ke bawah (**Run All**).
 Kalau muncul error `FileNotFoundError`, cek lagi path file CSV di cell `pd.read_csv(...)` dan sesuaikan dengan lokasi file di komputer kalian.
 
