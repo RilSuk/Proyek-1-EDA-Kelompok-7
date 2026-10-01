@@ -18,7 +18,7 @@ Exploratory Data Analysis (EDA) mengenai pengaruh kondisi cuaca dan atribut wakt
 
 ---
 
-## 3 Temuan Utama
+## 2 Temuan Utama
 
 1. Di dalam data, ditemukan angka suhu 0 Kelvin (-273,15°C). Angka ini mustahil terjadi secara fisik di dunia nyata, yang menandakan adanya kesalahan dari alat sensor atau saat pencatatan data.
 2. Meskipun cuaca berawan (Clouds) paling sering mendominasi, kondisi cuaca tidak menentukan seberapa ramai jalanan. Faktanya, jalanan yang padat maupun sepi bisa saja terjadi di berbagai jenis cuaca.
