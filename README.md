@@ -20,9 +20,9 @@ Exploratory Data Analysis (EDA) mengenai pengaruh kondisi cuaca dan atribut wakt
 
 ## 3 Temuan Utama
 
-1. **Jam 16.00 adalah jam paling ramai.** Volume kendaraan paling tinggi terjadi di sore hari pada jam pulang kerja.
-2. **Hujan tidak otomatis bikin jalan sepi.** Rata-rata volume saat hujan sekitar 3.292 kendaraan/jam, hampir sama dengan saat tidak hujan (3.257 kendaraan/jam). Baru saat curah hujan makin tinggi, rata-ratanya turun jadi sekitar 2.784 kendaraan/jam.
-3. **Hari kerja tidak sama ramainya.** Jumat paling ramai, Senin paling sepi di antara hari kerja, dan Minggu adalah hari paling sepi secara keseluruhan.
+1. Jam 16.00 memang paling ramai, tetapi di waktu pagi dan hari kerja konsisten sama ramainya.
+2. Hujan tidak langsung membuat jalan sepi.
+3. Jumat adalah hari kerja yang paling ramai, sedangkan Minggu paling sepi.
 
 Catatan: ada data suhu bernilai 0 Kelvin yang kami anggap error sensor, dan kolom `holiday` banyak yang kosong karena hanya diisi saat hari libur nasional.
 
