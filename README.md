@@ -20,11 +20,10 @@ Exploratory Data Analysis (EDA) mengenai pengaruh kondisi cuaca dan atribut wakt
 
 ## 3 Temuan Utama
 
-1. Jam 16.00 memang paling ramai, tetapi di waktu pagi dan hari kerja konsisten sama ramainya.
-2. Hujan tidak langsung membuat jalan sepi.
-3. Jumat adalah hari kerja yang paling ramai, sedangkan Minggu paling sepi.
+1. Di dalam data, ditemukan angka suhu 0 Kelvin (-273,15°C). Angka ini mustahil terjadi secara fisik di dunia nyata, yang menandakan adanya kesalahan dari alat sensor atau saat pencatatan data.
+2.Meskipun cuaca berawan (Clouds) paling sering mendominasi, kondisi cuaca tidak menentukan seberapa ramai jalanan. Faktanya, jalanan yang padat maupun sepi bisa saja terjadi di berbagai jenis cuaca.
 
-Catatan: ada data suhu bernilai 0 Kelvin yang kami anggap error sensor, dan kolom `holiday` banyak yang kosong karena hanya diisi saat hari libur nasional.
+Catatan: kolom `holiday` banyak yang kosong karena hanya diisi saat hari libur nasional.
 
 ---
 
